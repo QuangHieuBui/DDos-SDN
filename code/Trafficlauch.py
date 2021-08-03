@@ -5,7 +5,7 @@ import time
 from os import popen
 import logging
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
-from scapy.all import sendp, IP, UDP, Ether, TCP
+from scapy.all import Sendp, IP, UDP, Ether, TCP
 from random import randrange
 
 
